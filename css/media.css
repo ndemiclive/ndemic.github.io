@@ -1,0 +1,255 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-height: 800px) {
+  .mouse {
+    bottom: 75px; }
+  .navbar {
+    position: absolute; }
+  #fullpage h2:not(.text-dec) {
+    margin-bottom: 0px; }
+  #fullpage .bottom-line {
+    margin-top: 10px; }
+  #fullpage #feature .col-md-4 {
+    margin-bottom: 10px; }
+  #fullpage #feature .heading h4 {
+    margin-top: 0px; }
+  #fullpage #feature p {
+    margin-bottom: 0px; }
+  #fullpage #work-shop .col-md-4 {
+    margin-bottom: 10px; }
+  #fullpage #faculity-member .header-section {
+    margin-top: 25px;
+    margin-bottom: 25px; }
+  #fullpage #testimonial .quote {
+    margin-top: 15px;
+    margin-bottom: 15px; }
+  #fullpage #fade-quote-carousel blockquote {
+    padding-bottom: 0px;
+    padding-top: 0px; }
+  #fullpage #fade-quote-carousel.carousel .carousel-inner .item p {
+    line-height: 28px; }
+  #fullpage #fade-quote-carousel .profile-info {
+    margin-bottom: 40px; }
+  #fullpage #fade-quote-carousel.carousel .carousel-indicators {
+    bottom: -75px; } }
+
+@media only screen and (max-width: 1200px) {
+  .navbar {
+    position: fixed; }
+  #fullpage #feature .col-md-4 {
+    margin-bottom: 30px; }
+  #fullpage #cta-2 iframe {
+    pointer-events: auto; }
+  #fullpage #work-shop .col-md-4 {
+    overflow: hidden; }
+  #fullpage #faculity-member .fp-prev {
+    left: 10px; }
+  #fullpage #faculity-member .fp-next {
+    right: 10px; }
+  #fullpage #faculity-member .header-section {
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  #fullpage #faculity-member .fp-slidesNav.bottom {
+    bottom: 20px; }
+  #fullpage #faculity-member .pm-staff-profile-details {
+    padding: 10px 0px; }
+  #fullpage #testimonial .header-section h2 {
+    margin-top: 0px; }
+  #fullpage #testimonial .carousel-inner .item p {
+    font-size: 18px; }
+  #fullpage #testimonial .quote {
+    transform: scale(0.8);
+    margin-top: 20px;
+    margin-bottom: 10px; }
+  #fullpage #testimonial #fade-quote-carousel.carousel {
+    padding-bottom: 0px; }
+  #fullpage #testimonial .carousel .carousel-indicators {
+    bottom: -75px; }
+  #fullpage #pricing .price-table .pricing-head h4 {
+    font-size: 18px; } }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  #fullpage #feature p {
+    font-size: 14px; }
+  #fullpage #feature .fea-img {
+    width: 10%; }
+  #fullpage #feature .heading {
+    width: 90%;
+    margin-bottom: 20px; }
+  #fullpage #organisations .col-md-6 {
+    margin-top: 30px; }
+  #fullpage #organisations .col-sm-4 {
+    padding-bottom: 20px; }
+  #fullpage #organisations h3.det-txt,
+  #fullpage #organisations h4.sm-txt {
+    text-align: center; }
+  #fullpage #organisations h4.sm-txt {
+    margin-bottom: 30px; }
+  #fullpage #organisations .orga-stru {
+    margin: auto;
+    height: 300px; }
+  #fullpage #organisations .md-visible {
+    display: none; }
+  #fullpage #organisations .sm-visible {
+    display: block; }
+  #fullpage #work-shop .service-box {
+    width: auto; }
+  #fullpage #faculity-member .pm-staff-profile-title,
+  #fullpage #faculity-member .pm-staff-profile-bio {
+    font-size: 15px; }
+  #fullpage #faculity-member .faculity-member-3 .col-sm-6:last-of-type {
+    margin: auto;
+    display: block;
+    float: none; }
+  #fullpage #testimonial .carousel-inner .item p {
+    font-size: 16px; }
+  #fullpage #testimonial #fade-quote-carousel .profile-circle {
+    transform: scale(0.8); }
+  #fullpage #testimonial #fade-quote-carousel .profile-info {
+    margin-top: 10px; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  body .navbar-default .navbar-brand img {
+    height: 50px;
+    margin-left: 15px; }
+  #fullpage .banner .big-text {
+    font-size: 0.7em;
+    line-height: 1.2em; }
+  #fullpage .banner .small-text {
+    font-size: 17px;
+    line-height: 22px; }
+  #fullpage .banner .mouse {
+    display: none; }
+  #fullpage #work-shop p {
+    font-size: 14px; }
+  #fullpage #work-shop .service-box {
+    height: 360px; }
+  #fullpage #faculity-member .header-section p {
+    font-size: 14px; }
+  #fullpage #faculity-member .col-sm-6 {
+    margin-bottom: 30px; }
+  #fullpage #faculity-member .pm-staff-profile-name {
+    width: 52%;
+    margin: auto; }
+  #fullpage #faculity-member .pm-staff-profile-bio {
+    width: 60%;
+    margin: auto; }
+  #fullpage #testimonial .quote {
+    display: none; }
+  #fullpage #testimonial p {
+    font-size: 14px; }
+  #fullpage #testimonial .carousel-inner .item p {
+    font-size: 14px; }
+  #fullpage #courses {
+    display: none; }
+  #fullpage #pricing p {
+    font-size: 14px; }
+  #fullpage #contact .header-section p {
+    font-size: 14px; }
+  #fullpage #contact iframe {
+    pointer-events: none; } }
+
+@media only screen and (max-width: 570px) {
+  #fullpage .banner .big-text {
+    font-size: 0.5em;
+    line-height: 1em;
+    margin-bottom: 20px; }
+  #fullpage .banner .small-text {
+    font-size: 16px;
+    line-height: 20px; }
+  #fullpage #feature .fea-img {
+    width: 20%; }
+  #fullpage #feature .heading {
+    width: 80%; }
+  #fullpage #organisations h3.det-txt {
+    font-size: 34px; }
+  #fullpage #organisations h4.sm-txt {
+    font-size: 22px; }
+  #fullpage #work-shop .service-box {
+    background-position: top center; }
+  #fullpage #pricing .col-md-4 {
+    padding: 0 60px;
+    float: none;
+    margin: auto; }
+  #fullpage #footer {
+    padding-top: 40px; }
+    #fullpage #footer .container {
+      padding: 0 30px; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  #fullpage .banner .text-dec {
+    font-size: 15px;
+    margin: 5px 0; }
+  #fullpage .banner .big-text {
+    font-size: 0.7em; }
+  #fullpage .banner .small-text {
+    font-size: 13px;
+    line-height: 18px; }
+  #fullpage .banner .quote .btn {
+    font-size: 14px;
+    padding: 10px 25px; }
+  #fullpage #feature p {
+    font-size: 12px; }
+  #fullpage #organisations h3.det-txt {
+    font-size: 28px; }
+  #fullpage #organisations .orga-stru {
+    height: 240px; }
+  #fullpage #organisations .orga-stru h3 {
+    font-size: 26px; }
+  #fullpage #organisations .orga-stru p {
+    font-size: 11px; }
+  #fullpage #organisations .orga-stru i {
+    font-size: 50px; }
+  #fullpage #organisations p.det-p {
+    font-size: 14px; }
+  #fullpage #work-shop p {
+    font-size: 12px; }
+  #fullpage #faculity-member .header-section p {
+    font-size: 12px; }
+  #fullpage #faculity-member .pm-staff-profile-bio {
+    width: 85%; }
+  #fullpage #faculity-member .pm-staff-profile-name {
+    width: 90%; }
+  #fullpage #testimonial .header-section h2 {
+    margin-top: 10px; }
+  #fullpage #testimonial p {
+    font-size: 12px; }
+  #fullpage #testimonial blockquote {
+    padding: 10px 0px;
+    margin-bottom: -5px; }
+  #fullpage #testimonial .carousel-inner .item p {
+    font-size: 12px; }
+  #fullpage #testimonial #fade-quote-carousel .profile-info {
+    margin-top: 0px;
+    font-size: 16px; }
+  #fullpage #testimonial #fade-quote-carousel .profile-circle {
+    transform: scale(0.6); }
+  #fullpage #pricing p {
+    font-size: 12px; }
+  #fullpage #pricing .col-md-4 {
+    padding: 0 20px; }
+  #fullpage #contact .header-section p {
+    font-size: 12px; }
+  #fullpage #footer {
+    padding-top: 40px; }
+    #fullpage #footer .container {
+      padding: 0 10px; }
+    #fullpage #footer .social-links {
+      margin-top: 0px;
+      padding-top: 0px; } }
+
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1920px) {
+  body .big-text {
+    font-size: 40px; }
+  body .small-text {
+    font-size: 24px; } }

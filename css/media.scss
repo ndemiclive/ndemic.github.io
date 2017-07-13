@@ -1,0 +1,433 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-height: 800px) {
+	.mouse {
+		bottom: 75px;
+	}
+	.navbar {
+		position: absolute;
+	}
+	#fullpage {
+		//Global settings: 
+		h2:not(.text-dec){
+				margin-bottom: 0px
+		}
+		.bottom-line {
+			margin-top: 10px;
+		}
+		//Local settings: 
+		#feature {
+			.col-md-4 {
+				margin-bottom: 10px;
+			}
+			.heading h4 {
+				margin-top: 0px
+			}
+			p {
+				margin-bottom: 0px;
+			}
+		}
+		#work-shop {
+			.col-md-4 {
+				margin-bottom: 10px;
+			}
+		}
+		#faculity-member .header-section {
+			margin-top: 25px;
+			margin-bottom: 25px;
+		}
+		#testimonial .quote {
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+		#fade-quote-carousel blockquote {
+			padding-bottom: 0px;
+			padding-top: 0px;
+		}
+		#fade-quote-carousel.carousel .carousel-inner .item p {
+			line-height: 28px;
+		}
+		#fade-quote-carousel .profile-info {
+			margin-bottom: 40px;
+		}
+		#fade-quote-carousel.carousel .carousel-indicators {
+			bottom: -75px;
+		}
+	}
+}
+@media only screen and (max-width : 1200px) {
+	.navbar {
+		position: fixed;
+	}
+	#fullpage {
+		#feature {
+			.col-md-4 {
+				margin-bottom: 30px;
+			}
+		}
+		#cta-2 {
+			iframe {
+				pointer-events: auto;
+			}
+		}
+		#work-shop {
+			.col-md-4 {
+				overflow: hidden;
+			}
+		}
+		#faculity-member {
+			.fp-prev {
+				left: 10px;
+			}
+			.fp-next {
+				right: 10px;
+			}
+			.header-section {
+				margin-top: 50px;
+				margin-bottom: 50px;
+			}
+			.fp-slidesNav.bottom {
+				bottom: 20px;
+			}
+			.pm-staff-profile-details {
+				padding: 10px 0px;
+			}
+		}
+		#testimonial {
+			.header-section h2 {
+					margin-top: 0px;
+				}
+			.carousel-inner .item p {
+				font-size: 18px;
+			}
+			.quote {
+				transform: scale(0.8);
+				margin-top: 20px;
+				margin-bottom: 10px;
+			}
+			#fade-quote-carousel.carousel {
+				padding-bottom: 0px;
+			}
+			.carousel .carousel-indicators {
+				bottom: -75px;
+			}
+		}
+		#pricing {
+			.price-table .pricing-head h4 {
+				font-size: 18px;
+			}
+		}
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#fullpage { 
+		#feature {
+			p {
+				font-size: 14px;
+			}
+			.fea-img {
+				width: 10%;
+			}
+			.heading {
+		    width: 90%;
+		    margin-bottom: 20px;
+			}
+		}
+		#organisations {
+			.col-md-6 {
+				margin-top: 30px;
+			}
+			.col-sm-4 {
+				padding-bottom: 20px;
+			}
+			h3.det-txt,
+			h4.sm-txt {
+				text-align: center;
+			}
+			h4.sm-txt {
+				margin-bottom: 30px;
+			}
+			.orga-stru {
+				margin: auto;
+				height: 300px;
+			}
+			.md-visible {
+				display: none;
+			}
+			.sm-visible {
+				display: block;
+			}
+		}
+		#work-shop {
+			.service-box {
+				width: auto;
+			}
+		}
+		#faculity-member {
+			.pm-staff-profile-title,
+			.pm-staff-profile-bio {
+				font-size: 15px;
+			}
+			.faculity-member-3 .col-sm-6:last-of-type {
+				margin: auto;
+				display: block;
+				float: none;
+			}
+		}
+		#testimonial {
+			.carousel-inner .item p {
+				font-size: 16px;
+			}
+			#fade-quote-carousel .profile-circle {
+				transform: scale(0.8);
+			}
+			#fade-quote-carousel .profile-info {
+				margin-top: 10px;
+			}
+		}
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	body .navbar-default .navbar-brand img {
+		height: 50px;
+		margin-left: 15px;
+	}
+	#fullpage {
+		.banner {
+			.big-text {
+				font-size: 0.7em;
+				line-height: 1.2em;
+			}
+			.small-text {
+				font-size: 17px;
+				line-height: 22px;
+			}
+			.mouse {
+				display: none;
+			}
+		}
+		#work-shop {
+			p {
+				font-size: 14px;
+			}
+			.service-box {
+				height: 360px;
+			}
+		}
+		#faculity-member {
+			.header-section p {
+				font-size: 14px;
+			}
+			.col-sm-6 {
+				margin-bottom: 30px;
+			}
+			.pm-staff-profile-name {
+				width: 52%;
+				margin: auto;
+			}
+			.pm-staff-profile-bio {
+				width: 60%;
+				margin: auto;
+			}
+		}
+		#testimonial {
+			.quote {
+				display: none;
+			}
+			p {
+				font-size: 14px;
+			}
+				.carousel-inner .item p {
+				font-size: 14px;
+			}
+		}
+		#courses {
+			display: none;
+		}
+		#pricing {
+			p {
+				font-size: 14px;
+			}
+		}
+		#contact {
+			.header-section p {
+				font-size: 14px;
+			}
+			iframe {
+				pointer-events: none;
+			}
+		}
+	}
+}
+@media only screen and (max-width : 570px) {
+	#fullpage {
+		.banner {
+			.big-text {
+				font-size: 0.5em;
+				line-height: 1em;
+				margin-bottom: 20px;
+			}
+			.small-text {
+				font-size: 16px;
+				line-height: 20px;
+			}
+		}
+		#feature {
+			.fea-img {
+				width: 20%;
+			}
+			.heading {
+				width: 80%;
+			}
+		}
+		#organisations {
+			h3.det-txt {
+				font-size: 34px;
+			}
+			h4.sm-txt {
+				font-size: 22px;
+			}
+		}
+		#work-shop {
+			.service-box {
+				background-position: top center;
+			}
+		}
+		#pricing {
+			.col-md-4 {
+				padding: 0 60px;
+				float: none;
+				margin: auto;
+			}
+		}
+		#footer {
+			padding-top: 40px;
+			.container {
+				padding: 0 30px;
+			}
+		}
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	#fullpage {
+		.banner {
+			.text-dec {
+				font-size: 15px;
+				margin: 5px 0;
+			}
+			.big-text {
+				font-size: 0.7em;
+			}
+			.small-text {
+		    font-size: 13px;
+		    line-height: 18px;
+			}
+			.quote .btn {
+				font-size: 14px;
+				padding: 10px 25px;
+			}
+		}
+		#feature {
+			p {
+				font-size: 12px;
+			}
+		}
+		#organisations {
+			h3.det-txt {font-size: 28px;}
+			.orga-stru {height: 240px;}
+			.orga-stru h3 {font-size: 26px;}
+			.orga-stru p {font-size: 11px;}
+			.orga-stru i {font-size: 50px;}
+			p.det-p {font-size: 14px;}
+		}
+		#work-shop {
+			p {font-size: 12px;}
+		}
+		#faculity-member {
+			.header-section p {font-size: 12px;}
+			.pm-staff-profile-bio {width: 85%;}
+			.pm-staff-profile-name {width: 90%;}
+		}
+		#testimonial {
+			.header-section h2 {margin-top: 10px;}
+			p {font-size: 12px;}
+			blockquote {
+				padding: 10px 0px;
+				margin-bottom: -5px;
+			}
+			.carousel-inner .item p {font-size: 12px;}
+			#fade-quote-carousel .profile-info {
+				margin-top: 0px;
+				font-size: 16px;
+			}
+			#fade-quote-carousel .profile-circle {
+    		transform: scale(0.6);
+			}
+		}
+		#pricing {
+			p{font-size: 12px;}
+			.col-md-4 {
+				padding: 0 20px;
+			}
+		}
+		#contact {
+			.header-section p{font-size: 12px;}
+		}
+		#footer {
+			padding-top: 40px;
+			.container {
+				padding: 0 10px;
+			}
+			.social-links {
+				margin-top: 0px;
+				padding-top: 0px;
+			}
+		}
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media only screen and (min-width : 1920px) {
+	body .big-text {
+		font-size: 40px;
+	}
+	body .small-text {
+		font-size: 24px;
+	}
+}
+
